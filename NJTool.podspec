@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NJTool'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of NJTool.'
 
 # This description is used to generate tags and improve search results.
@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/ZR15100017-刘宏帅/NJTool'
+  s.homepage         = 'https://github.com/NinJaSir/NJToo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ZR15100017-刘宏帅' => 'liuhongshuai@zhongruigroup.com' }
-  s.source           = { :git => 'https://github.com/ZR15100017-刘宏帅/NJTool.git', :tag => s.version.to_s }
+  s.author           = { 'NinJa' => '625379797@qq.com' }
+  s.source           = { :git => 'https://github.com/NinJaSir/NJTool.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'NJTool/Classes/**/*'
+  s.source_files = 'NJTool/Classes/*.{h.m}'
   
   # s.resource_bundles = {
   #   'NJTool' => ['NJTool/Assets/*.png']
