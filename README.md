@@ -22,7 +22,6 @@ pod 'NJTool'
 
 ## Author
 
-ZR15100017-刘宏帅, liuhongshuai@zhongruigroup.com
 
 ## License
 

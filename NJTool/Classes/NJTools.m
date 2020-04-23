@@ -274,9 +274,9 @@
         resultImage = UIGraphicsGetImageFromCurrentImageContext();
         UIGraphicsEndImageContext();
         data = UIImageJPEGRepresentation(resultImage, compression);
-        NSLog(@"In compressing size loop, image size = %ld KB", data.length / 1024);
+//        NSLog(@"In compressing size loop, image size = %ld KB", data.length / 1024);
     }
-    NSLog(@"After compressing size loop, image size = %ld KB", data.length / 1024);
+//    NSLog(@"After compressing size loop, image size = %ld KB", data.length / 1024);
     return [UIImage imageWithData:data];
 }
 
