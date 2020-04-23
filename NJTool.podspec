@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NJTool'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'A short description of NJTool.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'NJTool/Classes/**/*'
+  s.source_files = 'NJTool/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'NJTool' => ['NJTool/Assets/*.png']
