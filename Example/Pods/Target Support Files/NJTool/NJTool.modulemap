@@ -1,0 +1,6 @@
+framework module NJTool {
+  umbrella header "NJTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

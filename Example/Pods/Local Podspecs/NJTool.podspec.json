@@ -1,0 +1,22 @@
+{
+  "name": "NJTool",
+  "version": "0.1.0",
+  "summary": "A short description of NJTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ZR15100017-刘宏帅/NJTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ZR15100017-刘宏帅": "liuhongshuai@zhongruigroup.com"
+  },
+  "source": {
+    "git": "https://github.com/ZR15100017-刘宏帅/NJTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NJTool/Classes/**/*"
+}
