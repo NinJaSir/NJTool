@@ -7,6 +7,7 @@
 //
 
 #import "NJViewController.h"
+#import "NJTools.h"
 
 @interface NJViewController ()
 

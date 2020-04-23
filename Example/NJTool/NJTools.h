@@ -15,11 +15,11 @@ typedef enum : NSUInteger {
     DateStyleMD,
 } DateStyle;
 
+//@class AVURLAsset;
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NJTools : NSObject
-
-NJSingle_H(NJTools)
 
 /** 手机号 正则 */
 + (BOOL)isTelephoneNumber:(NSString *)mobile;
@@ -79,9 +79,7 @@ NJSingle_H(NJTools)
 /**拨打电话*/
 + (void)callPhoneForView:(UIView *)view phone:(NSString *)phone;
 /**视频格式转换 mov->mp4*/
-+ (void)convertMovToMp4FromAVURLAsset:(AVURLAsset*)urlAsset andCompeleteHandler:(void(^)(NSURL *fileUrl))fileUrlHandler;
-
-
+//+ (void)convertMovToMp4FromAVURLAsset:(AVURLAsset*)urlAsset andCompeleteHandler:(void(^)(NSURL *fileUrl))fileUrlHandler;
 @end
 
 NS_ASSUME_NONNULL_END
