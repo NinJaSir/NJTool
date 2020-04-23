@@ -22,7 +22,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		BC20A478245168F10014DB9F /* NJTools.m in Sources */ = {isa = PBXBuildFile; fileRef = BC20A477245168F10014DB9F /* NJTools.m */; };
+		BC20A47B24517D3B0014DB9F /* NJTools.m in Sources */ = {isa = PBXBuildFile; fileRef = BC20A47924517D3A0014DB9F /* NJTools.m */; };
 		CECDE3415C29B5A2DF866C1B /* Pods_NJTool_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB72E9D32921CDB93F343EF /* Pods_NJTool_Example.framework */; };
 		D653ECB312D88948BDDD0B83 /* Pods_NJTool_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 402CE75831D9C60A5D6D1CEF /* Pods_NJTool_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -65,8 +65,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EBBD2F2D3790B7D432AF29E /* NJTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NJTool.podspec; path = ../NJTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BC20A476245168F10014DB9F /* NJTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJTools.h; sourceTree = "<group>"; };
-		BC20A477245168F10014DB9F /* NJTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJTools.m; sourceTree = "<group>"; };
+		BC20A47924517D3A0014DB9F /* NJTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJTools.m; sourceTree = "<group>"; };
+		BC20A47A24517D3B0014DB9F /* NJTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJTools.h; sourceTree = "<group>"; };
 		CE6B98AFC1E17641F3926F63 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CFEC2531D22050F31508F4A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F4057877A6731D00636FD353 /* Pods-NJTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NJTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NJTool_Tests/Pods-NJTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -135,8 +135,8 @@
 		6003F593195388D20070C39A /* Example for NJTool */ = {
 			isa = PBXGroup;
 			children = (
-				BC20A476245168F10014DB9F /* NJTools.h */,
-				BC20A477245168F10014DB9F /* NJTools.m */,
+				BC20A47A24517D3B0014DB9F /* NJTools.h */,
+				BC20A47924517D3A0014DB9F /* NJTools.m */,
 				6003F59C195388D20070C39A /* NJAppDelegate.h */,
 				6003F59D195388D20070C39A /* NJAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -373,7 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* NJAppDelegate.m in Sources */,
-				BC20A478245168F10014DB9F /* NJTools.m in Sources */,
+				BC20A47B24517D3B0014DB9F /* NJTools.m in Sources */,
 				6003F5A7195388D20070C39A /* NJViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

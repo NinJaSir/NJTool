@@ -15,8 +15,6 @@ typedef enum : NSUInteger {
     DateStyleMD,
 } DateStyle;
 
-//@class AVURLAsset;
-
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NJTools : NSObject
@@ -80,6 +78,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)callPhoneForView:(UIView *)view phone:(NSString *)phone;
 /**视频格式转换 mov->mp4*/
 //+ (void)convertMovToMp4FromAVURLAsset:(AVURLAsset*)urlAsset andCompeleteHandler:(void(^)(NSURL *fileUrl))fileUrlHandler;
+
 @end
 
 NS_ASSUME_NONNULL_END

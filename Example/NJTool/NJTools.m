@@ -7,9 +7,9 @@
 //
 
 #import "NJTools.h"
-//#import <AVFoundation/AVFoundation.h>
 
 @implementation NJTools
+
 
 //正则判断手机号
 + (BOOL)isTelephoneNumber:(NSString *)mobile
@@ -429,7 +429,7 @@
 //         }];
 //    }
 //}
-
+//
 
 
 @end
